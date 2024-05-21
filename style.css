@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Mycustom1';
+    src: url(Outfit-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Mycustom2';
+    src: url(YoungSerif-Regular.ttf) format('truetype')
+}
+
+html {
+    background-color: bisque;
+}
+
+body {
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    width: 700px;
+}
+
+.preperation {
+    border: 1px solid white;
+    background-color: rgb(244, 225, 232);
+    padding: 5px; 
+    border-radius: 20px;
+    padding-left: 20px;
+    font-family: 'Mycustom1';
+}
+
+h2 {
+    color: saddlebrown;
+    font-family: 'Mycustom2';
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Mycustom1';
+}
+
+.head-img {
+    border-radius:  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    word-spacing: normal;
+    line-height: 1.5;
+}
+
+ul {
+    line-height: 2;
+    font-family: 'Mycustom1';
+}
+
+ol {
+    line-height: 2;
+    font-family: 'Mycustom1';
+}
+
+header {
+    font-family: 'Mycustom2';
+    font-weight: lighter;
+    color: rgb(41, 40, 40);
+}
+
+.preperation h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.nutrition p {
+    font-family: 'Mycustom1';
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+th, td {
+    border-bottom: 1px solid rgb(106, 105, 105);
+    padding: 8px;
+}
